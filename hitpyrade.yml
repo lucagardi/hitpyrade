@@ -4,6 +4,7 @@ blacklist: [
   !!python/unicode originally,
   !!python/unicode instrumental,
   !!python/unicode tribute,
+  !!python/unicode despacito
 ]
 
 url: http://www.hitparadeitalia.it/hp_yends/hpe2010.htm
