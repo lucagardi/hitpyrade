@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 
 .cache-lucagardi
+hitpyrade.yml.secret
