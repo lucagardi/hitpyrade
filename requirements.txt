@@ -1,0 +1,5 @@
+six
+bs4
+re
+unidecode
+spotipy
