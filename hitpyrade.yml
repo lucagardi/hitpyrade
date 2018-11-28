@@ -1,0 +1,16 @@
+blacklist: [
+  !!python/unicode karaoke,
+  !!python/unicode remix,
+  !!python/unicode originally,
+  !!python/unicode instrumental,
+  !!python/unicode tribute,
+]
+
+url: http://www.hitparadeitalia.it/hp_yends/hpe2010.htm
+playlist_title: Hit Parade Italia - Italy's 2010
+
+auth:
+  username: <SPOTIFY-USERNAME>
+  client_id: <SPOTIFY-CLIENT-ID>
+  client_secret: <SPOTIFY-CLIENT-SECRET>
+  redirect_uri: <SPOTIFY-REDIRECT-URI>
