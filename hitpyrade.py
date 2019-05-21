@@ -1,14 +1,12 @@
 """ Parse HitParadeItalia page and fill a Spotify playlist """
-from operator import itemgetter
 import re
+from operator import itemgetter
 
-from six.moves import urllib
-from bs4 import BeautifulSoup
-from spotipy import Spotify
 import spotipy.util as util
-
 import yaml
-
+from bs4 import BeautifulSoup
+from six.moves import urllib
+from spotipy import Spotify
 
 def is_blacklisted(string, blacklisted_words):
     """ Check string against blacklisted words list (case insensitive) """
@@ -17,7 +15,6 @@ def is_blacklisted(string, blacklisted_words):
             return True
 
     return False
-
 
 def get_first_spotify_match(spotipy_obj, search_str, blacklisted_words=None):
     """ Return first non-blacklisted song """
@@ -130,6 +127,7 @@ def hitpyrade():
                                      track_ids)
 
     print "You're welcome!"
+    # Trigger DeepcodeAI?
 
 
 if __name__ == '__main__':
